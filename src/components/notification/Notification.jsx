@@ -7,7 +7,7 @@ export default class Notification extends Component {
     const { message } = this.props;
     return (
       <div>
-        <p className={css.noStatTitle}>{message}</p>;
+        <p className={css.noStatTitle}>{message}</p>
       </div>
     );
   }
